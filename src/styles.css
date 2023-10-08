@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgba(62, 144, 221, 0.397);
+  border-radius: 2rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+body{
+  padding-top: 5rem;
+  padding-left: 15rem;
+  padding-right: 10rem;
+  background: linear-gradient(-35deg, #000428 0%, #004e92)
+}
+.head{
+  padding-bottom: 20px;
+  border-bottom: 2px solid;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.logo{
+  height: 2rem;
+}
+.logoDiv{
+  justify-content: center;
+  padding-top: 3rem;
+  text-align: center;
+}
+.time{
+  justify-content: center;
+  padding-top: 2rem;
+  text-align: center;
+  color: #298EB9;
+}
+.dashboard{
+  color: #E09F29;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 990px) {
+  body {
+    padding-left: 5rem; 
+  }
+
+  .head {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 0.8rem; 
+  }
+  .logoDiv {
+    text-align: center;
+  }
+  .time {
+    text-align: center;
+  }
+}

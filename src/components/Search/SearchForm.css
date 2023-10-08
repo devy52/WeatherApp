@@ -1,0 +1,49 @@
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  
+  .searchBar {
+    width: 30rem;
+    font-size: 20px;
+  }
+
+  .searchIcon{
+    color: #E09F29;
+  }
+  
+  .searchButton {
+    width: 5rem;
+    font-size: 24px;
+    background: none;
+    border-style: none;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    margin-left: 30px;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    border-radius: 50px;
+  }
+  
+  @media (max-width: 600px) {
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .searchBar {
+      width: 100%; 
+      max-width: none;
+      margin-bottom: 20px; 
+    }
+  
+    .searchButton {
+      border-style: solid;
+      width: 100%; 
+    }
+  }
+  
