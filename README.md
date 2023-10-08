@@ -4,7 +4,7 @@
 A simple Weather App which uses OpenWeather API to get current weather, GeoDB (Rapid API) and Ninja API
 
 Insert gif or link to demo
-![Untitled video - Made with Clipchamp](https://github.com/devy52/WeatherApp/assets/108571763/604caae0-d758-4761-aaa0-906f125f090a)
+![upidsd](https://github.com/devy52/WeatherApp/assets/108571763/affaca90-ea76-42fc-aa5d-7d8253d2c384)
 
 
 ## Deployment
@@ -15,11 +15,12 @@ You can see the Live Demo here,
 
 
 ## Screenshots
-![Screenshot 2023-10-08 195105](https://github.com/devy52/WeatherApp/assets/108571763/12526fd7-bf40-4cbd-aac5-890de1828001)
-![Screenshot 2023-10-08 195124](https://github.com/devy52/WeatherApp/assets/108571763/9161ed84-586c-4a45-b2fa-3dd695e83320)
+
+![Screenshot 2023-10-08 211350](https://github.com/devy52/WeatherApp/assets/108571763/ff043bb2-c9e7-4688-98bb-40401fe39a5f)
+
+![Screenshot 2023-10-08 211341](https://github.com/devy52/WeatherApp/assets/108571763/dbd10890-d8e5-4f64-bc7d-33bf710b5254)
 
 ## Run Locally
-
 
 Clone the project
 
