@@ -22,7 +22,7 @@ export const fetchCitySuggestions = async (inputValue, setSuggestions) => {
 export const fetchWeatherData = async (city) => {
   try {
     return await axios.get(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b6acc4b554706e9e42013e2ee4f78562`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_OPENWEATHER_API_KEY`
     );
   } catch (error) {
     throw error;
@@ -30,7 +30,7 @@ export const fetchWeatherData = async (city) => {
 };
 
 export const fetchCityData = async (name) => {
-  const apiKey = "ZmsnkX5MgtEs3Qe/CTUfvQ==JfQsO44scswQbPvv";
+  const apiKey = "YOUR_NINJA_API_KEY";
   const apiUrl = `https://api.api-ninjas.com/v1/city?name=${name}`;
 
   try {
