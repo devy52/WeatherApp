@@ -3,13 +3,15 @@
 
 A simple Weather App which uses OpenWeather API to get current weather, GeoDB (Rapid API) and Ninja API
 
-Insert gif or link to demo
+
 ![upidsd](https://github.com/devy52/WeatherApp/assets/108571763/affaca90-ea76-42fc-aa5d-7d8253d2c384)
 
 
 ## Deployment
 
 You can see the Live Demo here,
+
+https://weatherapp-44t.pages.dev/
 
 
 
